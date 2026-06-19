@@ -124,9 +124,9 @@ Datasets include intentional anomalies (missing values, sensor faults, outliers)
 
 ## Contributors
 
-- **Partrick Kilonzo SCT211-0036/2024** – Designed and coded the core numerical routines in `numerical_methods.py` (root‑finding, numerical differentiation, integration, Gaussian elimination). Built the water‑balance solver in `simulation.py`, including Euler and RK4 integrators and the Monte‑Carlo rainfall engine. Delivered unit tests for all numerical modules and documented methodology for reproducibility.
+- **Calvince Omondi Jatelo SCT211-0034/2024** – Constructed the data‑cleaning pipeline (`data_cleaning.py`): implemented physical‑range checks, IQR and MAD outlier detection, linear interpolation for short gaps, median fallback, plus sensor‑fault flagging and audit‑trail reporting. Created helper functions to compute data‑quality metrics and authored the `clean_weather_data` and `clean_soil_data` ingestion functions.
 
-- **Calvince Omondi SCT211-0034/2024** – Constructed the data‑cleaning pipeline (`data_cleaning.py`): implemented physical‑range checks, IQR and MAD outlier detection, linear interpolation for short gaps, median fallback, plus sensor‑fault flagging and audit‑trail reporting. Created helper functions to compute data‑quality metrics and authored the `clean_weather_data` and `clean_soil_data` ingestion functions.
+- **Partrick Kilonzo Mbithi SCT211-0036/2024** – Designed and coded the core numerical routines in `numerical_methods.py` (root‑finding, numerical differentiation, integration, Gaussian elimination). Built the water‑balance solver in `simulation.py`, including Euler and RK4 integrators and the Monte‑Carlo rainfall engine. Delivered unit tests for all numerical modules and documented methodology for reproducibility.
 
 - **Patrick Kiama SCT211-0237/2023** – Developed the irrigation‑scheduling optimizer (`optimization.py`), including the penalised gradient‑descent routine, Armijo backtracking line search and Pareto‑front analysis. Added risk‑metric calculations in `simulation.py`, curated the final integration notebooks, and compiled presentation material.
 
